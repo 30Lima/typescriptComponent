@@ -2,7 +2,7 @@ import React from "react";
 import { Image, StyleSheet, View } from "react-native";
 
 interface ImagemProps {
-    source: string | number; // Aceita URL (string) ou require()
+    source: string | number;
 }
 
 export const Imagem: React.FC<ImagemProps> = ({ source }) => {
